@@ -19,13 +19,14 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="px-8 pb-8 pt-32 md:p-8 h-full bg-vscode-bg text-vscode-text flex flex-col justify-center max-w-6xl mx-auto">
+    <div className="px-8 pb-8 pt-40 md:p-8 h-full min-h-screen bg-vscode-bg text-vscode-text flex flex-col justify-start md:justify-center max-w-6xl mx-auto">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
         className="flex flex-col-reverse md:flex-row items-center justify-between gap-12"
       >
+        <div className="h-24 md:hidden w-full"></div>
         <div className="flex-1">
           <div className="flex items-center gap-4 mb-4">
             <span className="text-gray-500 text-sm">run index.tsx</span>
