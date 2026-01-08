@@ -10,7 +10,7 @@ const projects = [
       "This website! A developer portfolio designed to mimic the VS Code IDE experience.",
     tags: ["Next.js 15", "Tailwind CSS", "Framer Motion"],
     status: "Live",
-    link: "https://github.com/HKChamod",
+    link: "https://github.com/HKChamod/Official_Portfolio",
   },
   {
     id: 2,
