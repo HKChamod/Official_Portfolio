@@ -19,7 +19,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="p-8 h-full bg-vscode-bg text-vscode-text flex flex-col justify-center max-w-6xl mx-auto">
+    <div className="px-8 pb-8 pt-32 md:p-8 h-full bg-vscode-bg text-vscode-text flex flex-col justify-center max-w-6xl mx-auto">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -82,7 +82,7 @@ export default function Home() {
         </div>
 
         <div className="relative">
-          <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-slate-700 shadow-2xl">
+          <div className="relative w-40 h-40 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-slate-700 shadow-2xl">
             <Image
               src="/profile.jpg"
               alt="Hiran Chamod"
